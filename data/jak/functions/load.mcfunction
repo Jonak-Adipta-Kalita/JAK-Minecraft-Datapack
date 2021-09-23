@@ -1,1 +1,1 @@
-tellraw @a {"text": "JAK Minecrat Datapack Loaded!!", "color": "#000000"}
+tellraw @a {"text": "JAK Minecrat Datapack Loaded!!", "color": "#6995db"}
