@@ -8,3 +8,11 @@
 ![Made by JAK](https://img.shields.io/badge/BeastNight%20TV-Made%20by%20JAK-blue?style=for-the-badge)
 
 </div>
+
+## Technology(s) Used
+- 	Language: MCFunction
+
+## Contributors
+<a href = "https://github.com/Jonak-Adipta-Kalita/JAK-Minecraft-Datapack/graphs/contributors">
+	<img src = "https://contrib.rocks/image?repo=Jonak-Adipta-Kalita/JAK-Minecraft-Datapack"/>
+</a>
