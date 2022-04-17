@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "The Crafter",
+            "color": "dark_gray",
+            "bold": false
+        },
+        "description": {
+            "text": "Make a Crafting Table",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hasTable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["hasTable"]],
+    "parent": "adventure:root"
+}
