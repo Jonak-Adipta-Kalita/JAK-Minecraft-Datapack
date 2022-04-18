@@ -33,6 +33,5 @@
             }
         }
     },
-    "requirements": [["hasTable"]],
     "parent": "adventure:root"
 }
