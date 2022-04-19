@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:planks",
+            "data": 5
+        },
+        "title": {
+            "translate": "Illager's Mansion"
+        },
+        "description": {
+            "translate": "It's full of ghosts"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mansion"
+            }
+        }
+    }
+}

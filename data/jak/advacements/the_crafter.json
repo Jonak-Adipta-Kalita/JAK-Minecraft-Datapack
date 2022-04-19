@@ -33,5 +33,5 @@
             }
         }
     },
-    "parent": "adventure:root"
+    "parent": "jak:root"
 }

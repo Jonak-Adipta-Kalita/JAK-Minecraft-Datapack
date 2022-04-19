@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_fish"
+        },
+        "title": {
+            "translate": "Delicious Fish"
+        },
+        "description": {
+            "translate": "Catch and cook a fish"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "cook_fish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_fish"
+                    }
+                ]
+            }
+        }
+    }
+}

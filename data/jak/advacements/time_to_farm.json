@@ -1,0 +1,69 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_hoe"
+        },
+        "title": {
+            "translate": "Time to farm"
+        },
+        "description": {
+            "translate": "Craft a hoe"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "wooden_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wooden_hoe"
+                    }
+                ]
+            }
+        },
+        "stone_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_hoe"
+                    }
+                ]
+            }
+        },
+        "golden_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_hoe"
+                    }
+                ]
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        },
+        "iron_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["wooden_hoe", "stone_hoe", "golden_hoe", "diamond_hoe", "iron_hoe"]
+    ]
+}

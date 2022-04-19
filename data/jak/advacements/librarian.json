@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "title": {
+            "translate": "Librarian"
+        },
+        "description": {
+            "translate": "Craft a bookshelf"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bookshelf"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "frame": "goal",
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "title": {
+            "translate": "Dry It!"
+        },
+        "description": {
+            "translate": "Place a sponge in a furnace"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "dry_sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{ "item": "minecraft:sponge", "data": 0 }]
+            }
+        }
+    }
+}

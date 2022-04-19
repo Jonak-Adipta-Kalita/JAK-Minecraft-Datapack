@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "goal",
+        "title": {
+            "translate": "Overpowered"
+        },
+        "description": {
+            "translate": "Eat an enchanted golden apple"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "overpower": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_apple",
+                    "data": 1
+                }
+            }
+        }
+    }
+}

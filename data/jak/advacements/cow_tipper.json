@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather"
+        },
+        "frame": "goal",
+        "title": {
+            "translate": "Cow Tipper"
+        },
+        "description": {
+            "translate": "Harvest some leather"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "kill_cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "cow"
+                }
+            }
+        },
+        "leather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather"
+                    }
+                ]
+            }
+        }
+    },
+    "requirement": [["kill_cow"], ["leather"]]
+}

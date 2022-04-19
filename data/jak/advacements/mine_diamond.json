@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {
+            "translate": "advancements.story.mine_diamond.title"
+        },
+        "description": {
+            "translate": "advancements.story.mine_diamond.description"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    }
+}

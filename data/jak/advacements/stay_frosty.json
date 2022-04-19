@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "title": {
+            "translate": "Stayin' Frosty"
+        },
+        "description": {
+            "translate": "Swim in lava while having the fire resistance effect"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "in_lava": {
+            "trigger": "minecraft:enter_block",
+            "conditions": { "block": "minecraft:lava" }
+        },
+        "fire_resistance": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": { "effects": { "minecraft:fire_resistance": {} } }
+        }
+    }
+}

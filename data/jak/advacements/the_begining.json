@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "goal",
+        "title": {
+            "translate": "The beginning."
+        },
+        "description": {
+            "translate": "Kill the Wither"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "kill_wither_boss": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        }
+    }
+}

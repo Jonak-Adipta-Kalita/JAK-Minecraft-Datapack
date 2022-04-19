@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "title": {
+            "translate": "Bake Bread"
+        },
+        "description": {
+            "translate": "Turn wheat into bread"
+        }
+    },
+    "parent": "jak:root",
+    "criteria": {
+        "bake_bread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bread"
+                    }
+                ]
+            }
+        }
+    }
+}
