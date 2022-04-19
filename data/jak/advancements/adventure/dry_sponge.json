@@ -11,7 +11,7 @@
             "translate": "Place a sponge in a furnace"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:adventure/monument",
     "criteria": {
         "dry_sponge": {
             "trigger": "minecraft:inventory_changed",

@@ -11,7 +11,7 @@
             "translate": "Eat an enchanted golden apple"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:husbandry/time_to_farm",
     "criteria": {
         "overpower": {
             "trigger": "minecraft:consume_item",

@@ -1,21 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "The Crafter",
-            "color": "dark_gray",
-            "bold": false
+            "text": "The Crafter"
         },
         "description": {
-            "text": "Make a Crafting Table",
-            "color": "white"
+            "text": "Make a Crafting Table"
         },
         "icon": {
             "item": "minecraft:crafting_table"
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "announce_to_chat": true
     },
     "criteria": {
         "hasTable": {
@@ -33,5 +29,5 @@
             }
         }
     },
-    "parent": "jak:root"
+    "parent": "jak:adventure/root"
 }

@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_ore"
+            "item": "minecraft:cooked_salmon"
         },
         "title": {
-            "translate": "advancements.story.mine_diamond.title"
+            "translate": "Delicious Fish"
         },
         "description": {
-            "translate": "advancements.story.mine_diamond.description"
+            "translate": "Catch and cook a fish"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/hot_topic",
     "criteria": {
-        "diamond": {
+        "cook_fish": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond"
+                        "item": "minecraft:cooked_salmon"
                     }
                 ]
             }

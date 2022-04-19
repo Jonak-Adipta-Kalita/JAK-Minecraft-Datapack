@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:diamond_ore"
         },
         "title": {
-            "translate": "Librarian"
+            "translate": "advancements.story.mine_diamond.title"
         },
         "description": {
-            "translate": "Craft a bookshelf"
+            "translate": "advancements.story.mine_diamond.description"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/root",
     "criteria": {
-        "bookshelf": {
+        "diamond": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bookshelf"
+                        "item": "minecraft:diamond"
                     }
                 ]
             }

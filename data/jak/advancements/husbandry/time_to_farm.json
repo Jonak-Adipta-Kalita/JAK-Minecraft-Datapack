@@ -1,75 +1,69 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "item": "minecraft:wooden_hoe"
         },
         "title": {
-            "translate": "Time to Strike"
+            "translate": "Time to farm"
         },
         "description": {
-            "translate": "Craft a sword"
+            "translate": "Craft a hoe"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:husbandry/root",
     "criteria": {
-        "wooden_sword": {
+        "wooden_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_hoe"
                     }
                 ]
             }
         },
-        "stone_sword": {
+        "stone_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:stone_hoe"
                     }
                 ]
             }
         },
-        "diamond_sword": {
+        "golden_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:golden_hoe"
                     }
                 ]
             }
         },
-        "iron_sword": {
+        "diamond_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:diamond_hoe"
                     }
                 ]
             }
         },
-        "golden_sword": {
+        "iron_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:diamond_hoe"
                     }
                 ]
             }
-        },
-        "requirements": [
-            [
-                "stone_sword",
-                "wooden_sword",
-                "iron_sword",
-                "golden_sword",
-                "diamond_sword"
-            ]
-        ]
-    }
+        }
+    },
+    "requirements": [
+        ["wooden_hoe", "stone_hoe", "golden_hoe", "diamond_hoe", "iron_hoe"]
+    ]
 }

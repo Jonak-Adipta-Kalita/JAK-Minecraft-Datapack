@@ -10,7 +10,7 @@
             "translate": "advancements.story.smelt_iron.description"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/hot_topic",
     "criteria": {
         "iron": {
             "trigger": "minecraft:inventory_changed",

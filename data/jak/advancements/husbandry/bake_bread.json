@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:furnace"
+            "item": "minecraft:bread"
         },
         "title": {
-            "translate": "Hot Topic"
+            "translate": "Bake Bread"
         },
         "description": {
-            "translate": "Craft a furnace"
+            "translate": "Turn wheat into bread"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:husbandry/plant_seed",
     "criteria": {
-        "stone_pickaxe": {
+        "bake_bread": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:furnace"
+                        "item": "minecraft:bread"
                     }
                 ]
             }

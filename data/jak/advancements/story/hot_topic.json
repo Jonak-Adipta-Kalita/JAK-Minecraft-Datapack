@@ -1,23 +1,23 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_fish"
+            "item": "minecraft:furnace"
         },
         "title": {
-            "translate": "Delicious Fish"
+            "translate": "Hot Topic"
         },
         "description": {
-            "translate": "Catch and cook a fish"
+            "translate": "Craft a furnace"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/root",
     "criteria": {
-        "cook_fish": {
+        "stone_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cooked_fish"
+                        "item": "minecraft:furnace"
                     }
                 ]
             }

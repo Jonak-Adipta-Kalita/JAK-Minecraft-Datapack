@@ -10,7 +10,7 @@
             "translate": "Swim in lava while having the fire resistance effect"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:nether/root",
     "criteria": {
         "in_lava": {
             "trigger": "minecraft:enter_block",

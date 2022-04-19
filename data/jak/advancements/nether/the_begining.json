@@ -11,7 +11,7 @@
             "translate": "Kill the Wither"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:nether/root",
     "criteria": {
         "kill_wither_boss": {
             "trigger": "minecraft:player_killed_entity",

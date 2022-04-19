@@ -1,25 +1,23 @@
 {
-    "rewards": { "experience": 50 },
     "display": {
         "icon": {
-            "item": "minecraft:cake"
+            "item": "minecraft:bookshelf"
         },
-        "frame": "challenge",
         "title": {
-            "translate": "The Lie"
+            "translate": "Librarian"
         },
         "description": {
-            "translate": "Bake a cake"
+            "translate": "Craft a bookshelf"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/root",
     "criteria": {
-        "bake_cake": {
+        "bookshelf": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cake"
+                        "item": "minecraft:bookshelf"
                     }
                 ]
             }

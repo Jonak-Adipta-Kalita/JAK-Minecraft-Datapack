@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:planks",
+            "item": "minecraft:dark_oak_planks",
             "data": 5
         },
         "title": {
@@ -11,7 +11,7 @@
             "translate": "It's full of ghosts"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:adventure/root",
     "criteria": {
         "mansion": {
             "trigger": "minecraft:location",

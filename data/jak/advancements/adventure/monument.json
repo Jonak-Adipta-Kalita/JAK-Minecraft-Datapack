@@ -10,7 +10,7 @@
             "translate": "Find an Ocean Monument"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:adventure/root",
     "criteria": {
         "monument": {
             "trigger": "minecraft:location",

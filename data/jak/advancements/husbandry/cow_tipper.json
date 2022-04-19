@@ -11,7 +11,7 @@
             "translate": "Harvest some leather"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:husbandry/root",
     "criteria": {
         "kill_cow": {
             "trigger": "minecraft:player_killed_entity",

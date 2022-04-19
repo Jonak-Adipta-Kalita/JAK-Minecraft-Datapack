@@ -1,23 +1,25 @@
 {
+    "rewards": { "experience": 50 },
     "display": {
         "icon": {
-            "item": "minecraft:bread"
+            "item": "minecraft:cake"
         },
+        "frame": "challenge",
         "title": {
-            "translate": "Bake Bread"
+            "translate": "The Lie"
         },
         "description": {
-            "translate": "Turn wheat into bread"
+            "translate": "Bake a cake"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:husbandry/bake_bread",
     "criteria": {
-        "bake_bread": {
+        "bake_cake": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bread"
+                        "item": "minecraft:cake"
                     }
                 ]
             }

@@ -12,7 +12,7 @@
             "translate": "Deal more than 8 hearts of damage"
         }
     },
-    "parent": "jak:root",
+    "parent": "jak:story/librarian",
     "criteria": {
         "super_hit": {
             "trigger": "minecraft:player_hurt_entity",

@@ -11,7 +11,7 @@
         },
         "frame": "goal"
     },
-    "parent": "jak:root",
+    "parent": "jak:adventure/illager_mansion",
     "criteria": {
         "totem": {
             "trigger": "minecraft:used_totem",
