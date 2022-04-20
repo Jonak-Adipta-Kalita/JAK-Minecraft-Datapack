@@ -2,17 +2,17 @@
     "parent": "jak:root",
     "display": {
         "icon": {
-            "item": "minecraft:acacia_sign"
+            "item": "minecraft:end_stone"
         },
-        "title": "Story",
-        "description": "The BeastNight TV Story Advancements!!",
+        "title": "End",
+        "description": "The BeastNight TV End Advancements!!",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "storyCriteria": {
+        "endCriteria": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
