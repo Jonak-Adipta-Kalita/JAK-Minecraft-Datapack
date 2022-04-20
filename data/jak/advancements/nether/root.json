@@ -2,7 +2,7 @@
     "parent": "jak:root",
     "display": {
         "icon": {
-            "item": "minecraft:map"
+            "item": "minecraft:nether_brick"
         },
         "title": "Nether",
         "description": "The BeastNight TV Nether Advancements!!",

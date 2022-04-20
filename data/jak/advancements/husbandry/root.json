@@ -2,7 +2,7 @@
     "parent": "jak:root",
     "display": {
         "icon": {
-            "item": "minecraft:map"
+            "item": "minecraft:hay_block"
         },
         "title": "Husbandary",
         "description": "The BeastNight TV Husbandary Advancements!!",

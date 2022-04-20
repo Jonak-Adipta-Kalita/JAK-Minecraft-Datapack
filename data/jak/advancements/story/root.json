@@ -2,7 +2,7 @@
     "parent": "jak:root",
     "display": {
         "icon": {
-            "item": "minecraft:map"
+            "item": "minecraft:acacia_sign"
         },
         "title": "Story",
         "description": "The BeastNight TV Story Advancements!!",
