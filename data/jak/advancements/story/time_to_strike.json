@@ -10,7 +10,7 @@
             "translate": "Craft a sword"
         }
     },
-    "parent": "minecraft:story/root",
+    "parent": "jak:story/root",
     "criteria": {
         "wooden_sword": {
             "trigger": "minecraft:inventory_changed",
