@@ -15,7 +15,7 @@
         "monument": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Monument"
+                "feature": "monument"
             }
         }
     }
