@@ -12,7 +12,7 @@
     },
     "parent": "jak:story/hot_topic",
     "criteria": {
-        "cook_fish": {
+        "cook_salmon": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -21,6 +21,17 @@
                     }
                 ]
             }
+        },
+        "cook_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_cod"
+                    }
+                ]
+            }
         }
-    }
+    },
+    "requirements": [["cook_salmon", "cook_cod"]]
 }
