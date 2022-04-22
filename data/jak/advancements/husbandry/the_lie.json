@@ -19,7 +19,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cake"
+                        "item": "minecraft:cake",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }

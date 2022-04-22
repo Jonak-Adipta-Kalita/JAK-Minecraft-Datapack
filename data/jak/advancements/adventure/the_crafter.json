@@ -19,7 +19,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:crafting_table"
+                        "item": "minecraft:crafting_table",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }

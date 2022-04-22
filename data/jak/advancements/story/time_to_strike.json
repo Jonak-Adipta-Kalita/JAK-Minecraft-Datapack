@@ -17,7 +17,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_sword",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }
@@ -27,7 +31,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_sword",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }
@@ -37,7 +45,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_sword",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }
@@ -47,7 +59,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_sword",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }
@@ -57,7 +73,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword"
+                        "item": "minecraft:wooden_sword",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }

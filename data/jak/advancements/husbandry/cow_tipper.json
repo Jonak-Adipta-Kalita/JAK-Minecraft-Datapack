@@ -26,7 +26,11 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:leather"
+                        "item": "minecraft:leather",
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
                     }
                 ]
             }
