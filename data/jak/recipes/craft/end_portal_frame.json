@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["_D_", "W_W", "EEE"],
+    "key": {
+        "_": {
+            "item": "minecraft:end_stone_brick_slab"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        },
+        "W": {
+            "item": "minecraft:dark_prismarine_slab"
+        },
+        "E": {
+            "item": "minecraft:end_stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_portal_frame",
+        "count": 1
+    }
+}
