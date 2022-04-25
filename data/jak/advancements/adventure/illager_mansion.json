@@ -16,7 +16,7 @@
         "mansion": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "Mansion"
+                "feature": "mansion"
             }
         }
     }
