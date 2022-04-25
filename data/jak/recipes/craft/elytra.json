@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["#N#", "#D#", "#D#"],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "N": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "D": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}
