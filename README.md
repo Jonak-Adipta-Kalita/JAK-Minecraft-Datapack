@@ -32,7 +32,7 @@ Its better not to Play any Game :)!!
 
 ## Technology(s) Used
 
--       Language: MCFunction
+-	Language: MCFunction
 
 ## Contributors
 
