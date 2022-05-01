@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dark_oak_planks",
-            "data": 5
+            "item": "minecraft:dark_oak_planks"
         },
         "title": {
             "translate": "Illager's Mansion"
@@ -16,7 +15,9 @@
         "mansion": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "mansion"
+                "location": {
+                    "feature": "mansion"
+                }
             }
         }
     }
