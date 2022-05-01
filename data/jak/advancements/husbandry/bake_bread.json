@@ -10,14 +10,14 @@
             "translate": "Turn wheat into bread"
         }
     },
-    "parent": "jak:husbandry/plant_seed",
+    "parent": "jak:husbandry/time_to_farm",
     "criteria": {
         "bake_bread": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bread",
+                        "items": ["minecraft:bread"],
                         "count": {
                             "min": 1,
                             "max": 2624

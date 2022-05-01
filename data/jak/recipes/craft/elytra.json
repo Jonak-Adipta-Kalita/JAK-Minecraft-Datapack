@@ -9,7 +9,7 @@
             "item": "minecraft:netherite_chestplate"
         },
         "D": {
-            "item": "minecraft:dragon_egg"
+            "items": ["minecraft:dragon_egg"]
         }
     },
     "result": {

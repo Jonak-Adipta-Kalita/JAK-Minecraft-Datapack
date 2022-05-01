@@ -6,7 +6,7 @@
             "item": "minecraft:end_stone_brick_slab"
         },
         "D": {
-            "item": "minecraft:dragon_egg"
+            "items": ["minecraft:dragon_egg"]
         },
         "W": {
             "item": "minecraft:dark_prismarine_slab"

@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword",
+                        "items": ["minecraft:wooden_sword"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -31,21 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword",
-                        "count": {
-                            "min": 1,
-                            "max": 2624
-                        }
-                    }
-                ]
-            }
-        },
-        "diamond_sword": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wooden_sword",
+                        "items": ["minecraft:stone_sword"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -59,7 +45,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword",
+                        "items": ["minecraft:iron_sword"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -73,7 +59,35 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_sword",
+                        "items": ["minecraft:golden_sword"],
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond_sword"],
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:netherite_sword"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -89,7 +103,8 @@
             "wooden_sword",
             "iron_sword",
             "golden_sword",
-            "diamond_sword"
+            "diamond_sword",
+            "netherite_sword"
         ]
     ]
 }

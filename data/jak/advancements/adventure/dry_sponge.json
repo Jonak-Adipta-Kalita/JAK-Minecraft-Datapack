@@ -16,7 +16,15 @@
         "dry_sponge": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{ "item": "minecraft:sponge", "data": 0 }]
+                "items": [
+                    {
+                        "items": ["minecraft:sponge"],
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
+                    }
+                ]
             }
         }
     }

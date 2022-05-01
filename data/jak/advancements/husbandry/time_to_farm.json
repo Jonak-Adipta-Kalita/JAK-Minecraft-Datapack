@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wooden_hoe",
+                        "items": ["minecraft:wooden_hoe"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -31,7 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_hoe",
+                        "items": ["minecraft:stone_hoe"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -45,21 +45,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_hoe",
-                        "count": {
-                            "min": 1,
-                            "max": 2624
-                        }
-                    }
-                ]
-            }
-        },
-        "diamond_hoe": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:golden_hoe"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -73,7 +59,35 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:diamond_hoe",
+                        "items": ["minecraft:diamond_hoe"],
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
+                    }
+                ]
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond_hoe"],
+                        "count": {
+                            "min": 1,
+                            "max": 2624
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:netherite_hoe"],
                         "count": {
                             "min": 1,
                             "max": 2624
@@ -84,6 +98,13 @@
         }
     },
     "requirements": [
-        ["wooden_hoe", "stone_hoe", "golden_hoe", "diamond_hoe", "iron_hoe"]
+        [
+            "wooden_hoe",
+            "stone_hoe",
+            "golden_hoe",
+            "iron_hoe",
+            "diamond_hoe",
+            "netherite_hoe"
+        ]
     ]
 }

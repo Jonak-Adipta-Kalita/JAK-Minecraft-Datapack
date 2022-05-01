@@ -17,7 +17,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dragon_egg",
+                        "items": ["minecraft:dragon_egg"],
                         "count": {
                             "min": 1,
                             "max": 2624
