@@ -10,7 +10,7 @@
 
 </div>
 
--       Note: You must have Minecraft Installed!!
+-	Note: You must have Minecraft Installed!!
 
 ## Uses
 
