@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "title": {
+            "translate": "It Teleports!!"
+        },
+        "description": {
+            "translate": "Consume a Chorus Fruit"
+        }
+    },
+    "parent": "jak:end/root",
+    "criteria": {
+        "consumed_chorus_fruit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:chorus_fruit"]
+                }
+            }
+        }
+    }
+}
